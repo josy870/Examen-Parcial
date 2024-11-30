@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MsRegistryServerApplication<ms-registry-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "jmym.com.ms_registry_server.MsRegistryServerApplication",
+            "projectName": "ms-registry-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsCategoriaApplication<ms-categoria>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "jmym.com.ms_categoria.MsCategoriaApplication",
+            "projectName": "ms-categoria",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
